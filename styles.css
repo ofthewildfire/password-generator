@@ -25,7 +25,7 @@ body {
     position: absolute;
     height: 550px;
     width: 550px;
-    left: 630px;
+    left: 430px;
     right: 64px;
     background: #1F2937;
     border-radius: 6px;
@@ -88,7 +88,7 @@ button:active {
     position: absolute;
     width: 446px;
     height: 0px;
-    left: 684px;
+    left: 484px;
     top: 361px;
     border: 1px solid #2F3E53;
 }
@@ -97,7 +97,7 @@ button:active {
     height: 39px;
     width: 211px;
     position: absolute;
-    left: 678px;
+    left: 478px;
     top: 396px;
     background: #273549;
     border-radius: 6px;
@@ -107,7 +107,7 @@ button:active {
     position: absolute;
     width: 211px;
     height: 39px;
-    left: 900px;
+    left: 700px;
     top: 396px;
     background: #273549;
     border-radius: 6px;
