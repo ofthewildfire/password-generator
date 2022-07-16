@@ -1,0 +1,125 @@
+/* Colours and various design properties:
+
+ #55F991 - colour for the populated password in the box
+
+ #10B981 - background for the password button box
+
+ */
+
+
+@font-face {
+    font-family: 'Karla';
+    src: url(fonts/Karla-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url(fonts/Inter-Regular.ttf);
+}
+
+body {
+    background: linear-gradient(90deg, rgba(85, 249, 145, 1) 2%, rgba(16, 185, 129, 0.5242471988795518) 40%, rgba(47, 62, 83, 0.5382528011204482) 99%);
+}
+
+#box {
+    position: absolute;
+    height: 550px;
+    width: 550px;
+    left: 630px;
+    right: 64px;
+    background: #1F2937;
+    border-radius: 6px;
+}
+
+h1 {
+    position: absolute;
+    width: 354px;
+    height: 80px;
+    left: 52px;
+    top: 115px;
+    font-size: 40px;
+    font-family: 'Karla';
+    color: white;
+    line-height: 40px;
+    letter-spacing: -0.025em;
+    font-weight: 800;
+}
+
+h1 span {
+    color: #4adf86;
+}
+
+p {
+    position: absolute;
+    width: 372px;
+    height: 28px;
+    left: 52px;
+    top: 205px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #D5D4D8;
+}
+
+button {
+    position: absolute;
+    width: 191px;
+    height: 42px;
+    left: 52px;
+    top: 284px;
+    background: #10b981;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    border: none;
+    color: white;
+    font-family: 'Inter';
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+}
+
+button:active {
+    box-shadow: 0px 0px 10px white;
+}
+
+.border {
+    position: absolute;
+    width: 446px;
+    height: 0px;
+    left: 684px;
+    top: 361px;
+    border: 1px solid #2F3E53;
+}
+
+#box1 {
+    height: 39px;
+    width: 211px;
+    position: absolute;
+    left: 678px;
+    top: 396px;
+    background: #273549;
+    border-radius: 6px;
+}
+
+#box2 {
+    position: absolute;
+    width: 211px;
+    height: 39px;
+    left: 900px;
+    top: 396px;
+    background: #273549;
+    border-radius: 6px;
+}
+
+#box1,
+#box2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: center;
+    color: #55F991;
+}
